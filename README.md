@@ -1,3 +1,3 @@
 # Kanban
 
-This project builds and deploys an Angular progressive web app kanban board hosted on firebase.
+This project builds and deploys an Angular progressive kanban board on firebase.
