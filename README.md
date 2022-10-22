@@ -1,6 +1,6 @@
 # Kanban
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+This project hosts a kanban web application on firebase. The goal of this project is to build a PWA using angular and deploying on firebase.
 
 ## Development server
 
