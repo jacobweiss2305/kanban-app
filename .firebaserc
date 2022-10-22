@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "develop-44eab": {
+      "hosting": {
+        "kanban": [
+          "develop-44eab"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "develop-44eab"
+  }
+}

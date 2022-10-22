@@ -23,6 +23,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
             "scripts": []
@@ -94,8 +95,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "kanban:build:production",
+            "firebaseProject": "develop-44eab",
+            "firebaseHostingSite": "develop-44eab"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "65879e62-f175-4913-a061-27c66b18f5d1"
   }
 }
